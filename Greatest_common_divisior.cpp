@@ -16,6 +16,7 @@ int main()
 
 int GCD_Number(int first, int second)
 {
+     // base case
     if (second == 0)
         return first;
     return GCD_Number(second, first % second);
